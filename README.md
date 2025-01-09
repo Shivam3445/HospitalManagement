@@ -2,7 +2,7 @@ Hospital Management System
 
 This project is a Hospital Management System built using the MERN Stack (MongoDB, Express, React, Node.js). The system helps users find nearby hospitals, store and manage health data, access health records, and book appointments with healthcare providers. It integrates multiple APIs for mapping, authentication, healthcare data management, and scheduling.
 
-Directory Structure
+
 
 └── Shivam3445-HospitalManagement/
     ├── package.json
