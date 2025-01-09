@@ -47,7 +47,8 @@ const OtherHomePage = () => {
 
   // Fetch hospitals using Geoapify API
   const fetchHospitals = async (lat, lon) => {
-    const url = `https://api.geoapify.com/v2/places?categories=healthcare.hospital&filter=circle:${lon},${lat},5000&limit=10&apiKey=${geoapifyKey}`;
+    const url = `https://api.geoapify.com/v2/places?categories=healthcare.hospital&filter=circle:${lon},${lat},5000&limit=10&apiKey=da4dea3df1094dadbd2179f1c728ceeb
+`;
 
 
     setLoading(true);
@@ -91,7 +92,8 @@ const OtherHomePage = () => {
 
   // Fetch location using OpenCage API for address-based search
   const fetchLocationFromAddress = async (address) => {
-    const url = `https://api.opencagedata.com/geocode/v1/json?q=${encodeURIComponent(address)}&key=${opencageApiKey}`;
+    const url = `https://api.opencagedata.com/geocode/v1/json?q=${encodeURIComponent(address)}&key=a485602b7e5647629321c0898999ab42
+`;
 
 
     setLoading(true);
